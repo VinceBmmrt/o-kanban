@@ -1,0 +1,82 @@
+// TEST DE NOTRE API
+
+
+// ** LISTS ** //
+
+// afficher les listes 
+GET http://localhost:3000/lists
+
+###
+
+// Créer une liste
+POST http://localhost:3000/lists HTTP/1.1
+content-type: application/json
+
+{
+    "name": "liste de courses",
+    "position": 3
+}
+
+###
+
+// récupére une liste via son id : cas de succès (id 1)
+GET http://localhost:3000/lists/1
+
+###
+
+// récupére une liste via son id : cas d'erreur (id 152)
+GET http://localhost:3000/lists/152
+
+###
+
+// Modifier une liste
+PATCH http://localhost:3000/lists/7 HTTP/1.1
+content-type: application/json
+
+{
+    "name": "mes livres du moment"
+}
+
+###
+
+// Modifier une liste
+PATCH http://localhost:3000/lists/7 HTTP/1.1
+content-type: application/json
+
+{
+    "position": 32
+}
+
+###
+
+// supprimer une liste 
+DELETE http://localhost:3000/lists/10
+
+###
+
+// ** CARDS ** //
+
+// récupérer toutes les cartes d'une liste
+GET http://localhost:3000/lists/2/cards
+
+###
+
+// récupérer une carte via son id
+GET http://localhost:3000/cards/3
+
+###
+
+// créer une nouvelle carte
+POST http://localhost:3000/cards HTTP/1.1
+content-type: application/json
+
+{
+    "title": "Comté",
+    "position": 2,
+    "list_id": 2
+}
+
+###
+
+// supprimer une carte 
+DELETE http://localhost:3000/cards/6

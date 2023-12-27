@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="470" height="120" viewBox="0 0 470 120" xmlns="http://www.w3.org/2000/svg">
+<rect id="frame" x="0" y="0" width="470" height="120" fill="#f7f7f7" stroke="none" stroke-width="0"/>
+
+<!-- Association CONTAINS -->
+<g>
+	<line x1="254" y1="60" x2="145" y2="60" stroke="#8073ac" stroke-width="2"/>
+	<text x="191" y="77" fill="#b35806" font-family="Verdana" font-size="12">1,1</text>
+	<line x1="41" y1="60" x2="145" y2="60" stroke="#8073ac" stroke-width="2"/>
+	<text x="78" y="77" fill="#b35806" font-family="Verdana" font-size="12">0,N</text>
+	<g>
+		<path d="M171 35 a14 14 90 0 1 14 14 V60 h-80 V49 a14 14 90 0 1 14 -14" fill="#b2abd2" stroke="#b2abd2" stroke-width="0"/>
+		<path d="M185 60 v11 a14 14 90 0 1 -14 14 H119 a14 14 90 0 1 -14 -14 V60 H80" fill="#d8daeb" stroke="#d8daeb" stroke-width="0"/>
+		<rect x="105" y="35" width="80" height="50" fill="none" rx="14" stroke="#8073ac" stroke-width="2"/>
+		<line x1="105" y1="60" x2="185" y2="60" stroke="#8073ac" stroke-width="1"/>
+		<text x="112" y="52.75" fill="#000" font-family="Verdana" font-size="12">CONTAINS</text>
+	</g>
+</g>
+
+<!-- Association HAS -->
+<g>
+	<line x1="254" y1="60" x2="343" y2="60" stroke="#8073ac" stroke-width="2"/>
+	<text x="296" y="77" fill="#b35806" font-family="Verdana" font-size="12">0,N</text>
+	<line x1="428" y1="60" x2="343" y2="60" stroke="#8073ac" stroke-width="2"/>
+	<text x="368" y="77" fill="#b35806" font-family="Verdana" font-size="12">0,N</text>
+	<g>
+		<path d="M349 35 a14 14 90 0 1 14 14 V60 h-40 V49 a14 14 90 0 1 14 -14" fill="#b2abd2" stroke="#b2abd2" stroke-width="0"/>
+		<path d="M363 60 v11 a14 14 90 0 1 -14 14 H337 a14 14 90 0 1 -14 -14 V60 H40" fill="#d8daeb" stroke="#d8daeb" stroke-width="0"/>
+		<rect x="323" y="35" width="40" height="50" fill="none" rx="14" stroke="#8073ac" stroke-width="2"/>
+		<line x1="323" y1="60" x2="363" y2="60" stroke="#8073ac" stroke-width="1"/>
+		<text x="330" y="52.75" fill="#000" font-family="Verdana" font-size="12">HAS</text>
+	</g>
+</g>
+
+<!-- Entity LIST -->
+<g>
+	<g>
+		<rect x="9" y="18" width="64" height="25" fill="#fdb863" stroke="#fdb863" stroke-width="0" opacity="1"/>
+		<rect x="9" y="43" width="64" height="59" fill="#fee0b6" stroke="#fee0b6" stroke-width="0" opacity="1"/>
+		<rect x="9" y="18" width="64" height="84" fill="none" stroke="#e08214" stroke-width="2" opacity="1"/>
+		<line x1="9" y1="43" x2="73" y2="43" stroke="#e08214" stroke-width="1"/>
+	</g>
+	<text x="27" y="35.75" fill="#000" font-family="Verdana" font-size="12">LIST</text>
+	<text x="14" y="60.8" fill="#000" font-family="Verdana" font-size="12">code_list</text>
+	<line x1="14" y1="63" x2="68" y2="63" stroke="#000" stroke-width="1"/>
+	<text x="14" y="77.8" fill="#000" font-family="Verdana" font-size="12">name</text>
+	<text x="14" y="94.8" fill="#000" font-family="Verdana" font-size="12">position</text>
+</g>
+
+<!-- Entity CARD -->
+<g>
+	<g>
+		<rect x="217" y="9" width="74" height="25" fill="#fdb863" stroke="#fdb863" stroke-width="0" opacity="1"/>
+		<rect x="217" y="34" width="74" height="77" fill="#fee0b6" stroke="#fee0b6" stroke-width="0" opacity="1"/>
+		<rect x="217" y="9" width="74" height="102" fill="none" stroke="#e08214" stroke-width="2" opacity="1"/>
+		<line x1="217" y1="34" x2="291" y2="34" stroke="#e08214" stroke-width="1"/>
+	</g>
+	<text x="237" y="26.75" fill="#000" font-family="Verdana" font-size="12">CARD</text>
+	<text x="222" y="51.8" fill="#000" font-family="Verdana" font-size="12">code_card</text>
+	<line x1="222" y1="54" x2="285" y2="54" stroke="#000" stroke-width="1"/>
+	<text x="222" y="68.8" fill="#000" font-family="Verdana" font-size="12">title</text>
+	<text x="222" y="85.8" fill="#000" font-family="Verdana" font-size="12">color</text>
+	<text x="222" y="102.8" fill="#000" font-family="Verdana" font-size="12">position</text>
+</g>
+
+<!-- Entity TAG -->
+<g>
+	<g>
+		<rect x="395" y="18" width="66" height="25" fill="#fdb863" stroke="#fdb863" stroke-width="0" opacity="1"/>
+		<rect x="395" y="43" width="66" height="59" fill="#fee0b6" stroke="#fee0b6" stroke-width="0" opacity="1"/>
+		<rect x="395" y="18" width="66" height="84" fill="none" stroke="#e08214" stroke-width="2" opacity="1"/>
+		<line x1="395" y1="43" x2="461" y2="43" stroke="#e08214" stroke-width="1"/>
+	</g>
+	<text x="415" y="35.75" fill="#000" font-family="Verdana" font-size="12">TAG</text>
+	<text x="400" y="60.8" fill="#000" font-family="Verdana" font-size="12">code_tag</text>
+	<line x1="400" y1="63" x2="456" y2="63" stroke="#000" stroke-width="1"/>
+	<text x="400" y="77.8" fill="#000" font-family="Verdana" font-size="12">name</text>
+	<text x="400" y="94.8" fill="#000" font-family="Verdana" font-size="12">color</text>
+</g>
+</svg>
